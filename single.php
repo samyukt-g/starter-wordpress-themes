@@ -17,6 +17,11 @@
                         </div>
                     <?php endif; ?>
                     <?php the_content(); ?>
+                    <div class="comments-section">
+                        <div class="container">
+                            <?php comments_template(); ?>
+                        </div>
+                    </div>
                   </article>
                 <?php endwhile; ?>
               <?php else : ?>
@@ -24,4 +29,5 @@
               <?php endif; ?>
           </div>
         </div>
+
 <?php get_footer(); ?>

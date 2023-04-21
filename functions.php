@@ -17,6 +17,7 @@ function simple_set_excerpt_length() {
 }
 add_filter('excerpt_length', 'simple_set_excerpt_length');
 
+// Sidebar
 
 // Enqueueing style sheets
 function simple_enqueue_styles() {
